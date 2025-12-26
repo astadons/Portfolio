@@ -75,9 +75,10 @@ p {
 .cta-box {
   padding: 10px 30px;
   border: 2px solid red; /* Den røde farve fra dit logo */
-  color: red;
+  background-color: rgb(11, 17, 75);
   text-decoration: none;
-  font-family: "Serif", serif; /* Din Vogue-inspirerede font */
+  font-family: "Serif", serif;
+  color: white; /* Din Vogue-inspirerede font */
   text-transform: uppercase;
   font-weight: bold;
   transition: all 0.3s ease;
