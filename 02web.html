@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<header>
+    <a href="index.html">
+        <img src="img/A1.svg" alt="Mit Logo" class="logo">
+    </a>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="02web.html">Web</a></li>
+            <li><a href="03UX.html">UX/UI</a></li>
+            <li><a href="04javascript.html">JS</a></li>
+            <li><a href="05indhold.html">Indhold</a></li>
+            <li><a href="06ommig.html">Om mig</a></li>
+        </ul>
+        <button class="burger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </button>
+    </nav>
+</header>
+<main>
+    <h2> Min computer - projekt</h2>
+
+
+    <div class="case-item">
+        <img src="img/web1.webp" alt="Macbook Case" class="case-image">
+
+        <div class="case-overlay">
+            <h2 class="overlay-text">TEMA 02 </h2>
+            <a href="http://127.0.0.1:5502/min_computer.html" class="cta-box">Se projekt</a>
+        </div>
+    </div>
+
+    <div class="tekst-indhold fade-in-text">
+
+        <p>I dette forløb har jeg lært at bygge en hjemmeside helt fra bunden. Jeg har brugt HTML til at opbygge selve
+            indholdet og
+            CSS Grid til at styre, hvor billeder og tekst skal stå, så de står pænt ved siden af hinanden. For at sikre,
+            at siden
+            også virker på en telefon, har jeg brugt Media Queries, som automatisk ændrer layoutet, når skærmen bliver
+            mindre.</p>
+
+        <h3>Læring</h3>
+        <p>Jeg har lært at kombinere semantisk HTML med CSS Grid for at skabe et struktureret layout. Jeg har fået en
+            grundlæggende
+            forståelse for, hvordan man bruger en grid-container til at styre placeringen af sit indhold. En vigtig del
+            af min
+            læring har været brugen af semantiske tags som 'main', 'section' og 'article' for at opdele indholdet
+            korrekt og logisk.
+            Samtidig har jeg fået styr på box-modellen, så jeg kan kontrollere størrelsen på mine elementer med padding
+            og margin, mens Grid-systemet sørger for den overordnede opstilling via gap.
+        </p>
+        <img src="img/boxmodellen.webp" alt class="box-modellen">
+
+        <h3>Proces</h3>
+        <p>Min proces startede i Figma, hvor jeg planlagde mit layout og mit grid-net. Da jeg begyndte at kode, opsatte
+            jeg min
+            grid-container med to kolonner for at få billedet og teksten til at stå ved siden af hinanden. Undervejs
+            brugte jeg
+            browserens Inspect-værktøj flittigt til at tjekke mine kasser. Det gjorde det nemt at se, om det var
+            grid-indstillingerne eller box-modellens margin, der styrede afstandene, så jeg kunne rette layoutet til
+            løbende.</p>
+
+        <h3>Løsning</h3>
+        <p>
+            Den endelige løsning er et solidt og responsivt layout, hvor HTML og CSS arbejder sammen. Ved at bruge de
+            semantiske
+            tags som fundament og CSS Grid til selve opbygningen, har jeg skabt en side, der står præcis som i mit
+            design. Løsningen
+            er fleksibel, fordi jeg har brugt relative enheder som fr, hvilket betyder, at både box-modellens værdier og
+            grid-kolonnerne tilpasser sig flydende efter skærmstørrelsen.</p>
+
+        <h3>Media queries</h3>
+        <p>For at gøre siden responsiv har jeg også arbejdet med Media Queries. Jeg har lært at bruge breakpoints til at
+            ændre mit
+            grid-layout, så det tilpasser sig forskellige skærmstørrelser. For eksempel har jeg ændret min
+            grid-template-columns fra
+            to kolonner på desktop til én kolonne på mobilen, så indholdet bliver læsbart og brugervenligt på alle
+            enheder.</p>
+        <img src="img/media.webp" alt class="media">
+    </div>
+
+
+
+
+
+
+
+
+
+</main>
+
+<footer>
+    <div class="footer-content">
+
+        <div class="footer-links">
+            <h3>Udforsk</h3>
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="02web.html">Web</a></li>
+            <li><a href="03UX.html">UX/UI</a></li>
+            <li><a href="04javascript.html">JS</a></li>
+            <li><a href="05indhold.html">Indhold</a></li>
+            <li><a href="06ommig.html">Om mig</a></li>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Kontakt</h3>
+            <p>Mail: Astadons02@gmail.com</p>
+            <p>Telefon nummer: 26506609</p>
+            <a href="https://www.linkedin.com/feed/" target="_blank">linkedin</a>
+            <a href="https://instagram.com/Astadons" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/home.php" target="_blank">Facebook</a>
+        </div>
+    </div>
+    <p class="copyright">© 2026 Asta Dons Portfolio</p>
+</footer>
+
+<script src="burger.js">
+</script>
+</body>
+
+</html>

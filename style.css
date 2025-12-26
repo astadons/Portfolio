@@ -1,0 +1,459 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/*************** Reset slut *********************/
+
+/********************aner ik?********************/
+
+main {
+  padding: 10px;
+}
+
+body {
+  background-color: rgb(11, 17, 75);
+}
+
+/*****************font opsætning********************/
+
+h1 {
+  font-size: 12vw; /* Gør ASTA DONS gigantisk */
+  text-transform: uppercase;
+  line-height: 0.9; /* Trækker linjerne tættere sammen for et stramt look */
+  margin: 0;
+  color: red; /* Din signatur-rød */
+  font-family: "Serif", serif;
+}
+
+h2 {
+  font-size: 5vw; /* Gør dine underskrifter (f.eks. Portfolio) store, men mindre end h1 */
+  text-transform: uppercase;
+  color: red;
+  margin-top: -10px; /* Kan bruges til at "stakke" ordene tættere */
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-block: 0.5rem;
+  color: #7c0909;
+}
+p {
+  font-size: 1rem;
+  margin-block: 1rem 2rem;
+  color: white;
+}
+
+/****om mig***/
+.ommigtitel {
+  padding-left: 500px;
+}
+
+/********cta knap***/
+.social-link {
+  color: white;
+  text-decoration: none;
+  font-family: "Serif", serif; /* For at matche din Vogue-stil */
+  border-bottom: 1px solid red; /* En tynd rød streg der matcher dit A */
+  padding-bottom: 2px;
+}
+
+.cta-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 0;
+  background-color: rgb(11, 17, 75); /* Din mørkeblå farve */
+}
+
+.cta-box {
+  padding: 10px 30px;
+  border: 2px solid red; /* Den røde farve fra dit logo */
+  color: red;
+  text-decoration: none;
+  font-family: "Serif", serif; /* Din Vogue-inspirerede font */
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.cta-box:hover {
+  background-color: red;
+  color: #22085e; /* Bytter farverne rundt ved hover */
+}
+
+/* 3. Hover-effekten (når musen er over) */
+.cta-knap:hover {
+  background-color: #cc0000; /* En mørkere nuance af farven */
+  transform: scale(1.05); /* Knappen bliver en lille smule større */
+  cursor: pointer;
+}
+
+/*******footer****/
+footer {
+  background-color: rgb(11, 17, 75); /* Din mørkeblå */
+  padding: 10px 40px;
+  border-top: 1px solid rgba(255, 0, 0, 0.3); /* En meget svag rød linje øverst */
+  color: white;
+  font-family: "Serif", serif;
+  footer {
+    padding: 10px 0; /* Meget lidt luft i top og bund */
+    height: auto; /* Den fylder kun det, teksten fylder */
+  }
+}
+
+.footer-links {
+  padding: 50px;
+}
+
+.footer-contact {
+  padding: 50px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links a {
+  display: block; /* Sætter dem under hinanden */
+  color: white;
+  text-decoration: none;
+  margin-bottom: 1.5px;
+  font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+  color: red; /* Din signatur-rød */
+}
+
+footer ul {
+  list-style-type: none; /* Fjerner prikkerne */
+  padding: 0; /* Fjerner standard indrykning så teksten flugter til venstre */
+  margin: 0;
+}
+
+/*********logo*****/
+.main-logo {
+  /* Justér denne værdi for at gøre det større */
+  width: 300px;
+
+  /* Auto sikrer, at logoet ikke bliver mast/deformt */
+  height: auto;
+
+  /* Gør det skarpt (godt til monogrammer) */
+  display: block;
+  margin: 20px auto; /* Centrerer logoet og giver luft (whitespace) */
+}
+
+/**********************menu****************************************/
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: rgb(22, 29, 96);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.logo,
+header a {
+  position: relative;
+  z-index: 9999; /* Dette tvinger logoet helt frem i forreste lag */
+  cursor: pointer; /* Dette sikrer, at musen skifter til en "hånd" */
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 10px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 5px;
+  color: #e10e0e;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.menu a:hover {
+  color: #000000;
+}
+
+.burger {
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+
+.burger .line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #cb9bbe;
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+.burger {
+  display: none;
+}
+
+footer {
+  color: rgb(255, 255, 255);
+}
+
+header {
+  position: sticky; /* Eller fixed */
+  top: 0;
+  z-index: 1000; /* Et højt tal sikrer, at den ligger øverst */
+  background-color: #000033; /* Husk baggrundsfarve, så man ikke kan se billedet igennem */
+}
+
+.case-item {
+  z-index: 1; /* Sørg for at billedet har et lavere tal end headeren */
+}
+
+/* Containeren */
+.case-item {
+  position: relative;
+  width: 40%;
+  max-width: 800px; /* Eller den størrelse dit billede har */
+  cursor: pointer;
+  overflow: hidden; /* Holder sløringen inden for billedets kanter */
+}
+
+/***** alle menu billeder***/
+
+/* Selve billedet */
+.case-image {
+  width: 100%;
+  display: block;
+  transition: transform 0.5s ease; /* Lille zoom-effekt hvis du vil */
+  padding: 20px;
+}
+
+/* Det sorte/slørede lag (Overlay) */
+.case-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 20, 103, 0.7); /* Din mørkeblå med gennemsigtighed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* Skjult som standard */
+  transition: opacity 0.4s ease;
+
+  /* Dette slører billedet bagved teksten */
+  backdrop-filter: blur(8px);
+}
+
+/* Teksten indeni overlayet */
+.overlay-text {
+  color: white;
+  font-size: 1.5rem; /* Gør det stort! */
+  font-family: "Serif", serif;
+  letter-spacing: 2.5px;
+}
+
+/* HOVER-EFFEKTEN */
+.case-item:hover .case-overlay {
+  opacity: 1; /* Gør overlayet synligt */
+}
+
+.case-item:hover .case-image {
+  transform: scale(1.05); /* Valgfrit: billedet zoomer en lille smule */
+}
+
+.tekst-indhold {
+  padding: 80px;
+  margin: 25px;
+  border: 2px solid rgb(182, 18, 18); /* Skaber en hvid ramme på 2 pixels */
+  padding: 20px; /* Vigtigt: giver luft mellem teksten og rammen */
+  border-radius: 8px; /* Giver boksen bløde/runde hjørner */
+}
+
+.ux-ui {
+  padding: 200px;
+  margin: 35;
+}
+
+.media {
+  width: 40%; /* Gør billedet mindre (80% af sin container) */
+  height: auto; /* Sørger for at billedet ikke bliver strukket */
+  display: block; /* Fjerner lille mellemrum i bunden */
+  margin: 0 auto; /* Centrerer billedet, hvis det er mindre end kolonnen */
+  padding: 10px;
+}
+
+.box-modellen {
+  width: 40%; /* Gør billedet mindre (80% af sin container) */
+  height: auto; /* Sørger for at billedet ikke bliver strukket */
+  display: block; /* Fjerner lille mellemrum i bunden */
+  margin: 0 auto; /* Centrerer billedet, hvis det er mindre end kolonnen */
+  padding: 10px;
+}
+
+.dons {
+  /* Dette skaber mellemrummet mellem billederne */
+  gap: 60px;
+  width: 40%; /* Gør billedet mindre (80% af sin container) */
+  height: auto; /* Sørger for at billedet ikke bliver strukket */
+  display: block; /* Fjerner lille mellemrum i bunden */
+  margin-bottom: 60px; /* Skaber luft under billedet */
+  margin-right: 60px; /* Skaber luft til højre for billedet */
+}
+
+.moodboard {
+  width: 40%; /* Gør billedet mindre (80% af sin container) */
+  height: auto; /* Sørger for at billedet ikke bliver strukket */
+  display: block; /* Fjerner lille mellemrum i bunden */
+  margin-bottom: 60px; /* Skaber luft under billedet */
+  margin-right: 60px; /* Skaber luft til højre for billedet */
+  /* Dette skaber mellemrummet mellem billederne */
+  gap: 60px;
+}
+
+/* ==========================================
+   ANIMATIONS
+   ========================================== */
+
+/* Fade In Animation (Bruges til tekst) */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Gør at den dumper lidt op nedefra */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hoppe Animation (Bruges til dit billede eller CTA knap) */
+@keyframes hoppe-animation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Hopper 10 pixels op */
+  }
+}
+
+/* Her anvender du animationerne på dine klasser */
+.fade-in-text {
+  animation: fadeIn 3s ease-out; /* 3 sekunder giver et flot, roligt fade */
+}
+
+.hoppende-billede,
+.hoppende-knap {
+  animation: hoppe-animation 2s ease-in-out infinite;
+}
+
+/***** hoppende billede ommig***/
+
+/* Anvend animationen på dit billede */
+.hoppende-billede {
+  animation: hoppe-animation 2s ease-in-out infinite;
+  /*
+        hoppe-animation: Navnet på animationen
+        2s: Animationen varer 2 sekunder
+        ease-in-out: Starter og slutter langsomt, hurtigere i midten (giver en blødere hoppen)
+        infinite: Gentager animationen uendeligt
+    */
+}
+/*** forside scroll**/
+.fade-in-text {
+  opacity: 0; /* Start som usynlig */
+  animation: fadeIn 1.5s ease-out forwards; /* 'forwards' gør at den bliver stående som synlig */
+}
+
+/* Forskydning så de ikke kommer samtidig */
+h1:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+h1:nth-child(2) {
+  animation-delay: 0.5s; /* Kommer lidt senere end det første ord */
+}
+
+.linkedin-link {
+  animation-delay: 0.8s; /* Kommer sidst */
+}
+
+/* Vi bruger den samme keyframe som før */
+@keyframes hoppe-animation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px); /* Knappen hopper 8px op */
+  }
+}
+
+/* Animationen der gør teksten synlig gradvist */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Den starter lidt nede og bevæger sig op */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Denne klasse sætter vi på din tekst-container */
+.fade-in-text {
+  opacity: 0; /* Starter som usynlig */
+  animation: fadeIn 2s ease-out forwards;
+  animation-delay: 0.5s; /* Vent 0.5 sekund før teksten toner frem */
+}
+
+/*** forside cta hoppende kanp***/
+
+/* Anvend den på din knap */
+.hoppende-knap {
+  display: inline-block; /* Vigtigt: transform virker bedst på inline-block eller block */
+  animation: hoppe-animation 2s ease-in-out infinite;
+
+  /* Din eksisterende knap-styling herunder (eksempel) */
+  padding: 15px 30px;
+  border: 2px solid red;
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Tip: Stop hoppet når man holder musen over (hover) */
+.hoppende-knap:hover {
+  animation-play-state: paused;
+  background-color: red;
+  color: #000033;
+}
