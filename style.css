@@ -338,6 +338,20 @@ header {
   gap: 60px;
 }
 
+/********video 05*****/
+.video-container {
+  width: 100%;
+  max-width: 800px; /* Eller hvad der passer til dit grid */
+  margin: 20px auto;
+}
+
+.case-video {
+  width: 100%; /* Sørger for at videoen udfylder sin container */
+  height: auto; /* Bevarer det rigtige højde/bredde-forhold */
+  border-radius: 10px; /* Matcher måske dine billeder i DONS */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
 /* ==========================================
    ANIMATIONS
    ========================================== */
