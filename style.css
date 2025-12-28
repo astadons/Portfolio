@@ -291,6 +291,7 @@ header {
 /* HOVER-EFFEKTEN */
 .case-item:hover .case-overlay {
   opacity: 1; /* Gør overlayet synligt */
+  filter: grayscale(100%);
 }
 
 .case-item:hover .case-image {
