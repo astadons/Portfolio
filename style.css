@@ -471,6 +471,10 @@ input[type="checkbox"]:hover {
   padding: 20px;
 }
 
+.titel-hindbaer {
+  text-align: center;
+}
+
 /* ==========================================
    ANIMATIONS
    ========================================== */
