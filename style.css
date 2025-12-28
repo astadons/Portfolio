@@ -300,6 +300,51 @@ header {
   padding: 10px;
 }
 
+/********erfaring om mig******/
+.skills-container {
+  background-color: #16064c;
+  padding: 20px;
+  font-family: "Arial", sans-serif; /* Brug gerne en sjov font som på billedet */
+}
+
+.skill {
+  display: inline-block;
+  width: 200px; /* Så de kan stå ved siden af hinanden */
+  margin-bottom: 20px;
+}
+
+.skill p {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.dots {
+  display: flex;
+  gap: 8px;
+}
+
+/* Her styler vi selve checkboxen til at ligne en cirkel */
+input[type="checkbox"] {
+  appearance: none; /* Fjerner det normale flueben-look */
+  width: 20px;
+  height: 20px;
+  background-color: #110653; /* Den grå farve (ikke valgt) */
+  border-radius: 50%; /* Gør den rund */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Farven når den er krydset af (GUL som på dit billede) */
+input[type="checkbox"]:checked {
+  background-color: #f1c40f;
+}
+
+/* Lille hover effekt */
+input[type="checkbox"]:hover {
+  border: 2px solid #333;
+}
+
 /* HOVER-EFFEKTEN */
 .case-item:hover .case-overlay {
   opacity: 1; /* Gør overlayet synligt */
