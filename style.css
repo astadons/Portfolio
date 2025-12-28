@@ -364,10 +364,10 @@ header {
 
 /********video 05*****/
 .video-container {
-  position: relative; /* Gør det muligt at placere ting indeni præcist */
-  width: 100%; /* Gør videoen bredere */
-  max-width: 800px;
-  margin: 50px auto;
+  position: relative;
+  width: 100%; /* Bevar denne for responsivitet */
+  max-width: 1200px; /* Ændr fra 800px til f.eks. 1200px for et større format */
+  margin: 50px auto; /* Centrerer videoen på siden */
   height: auto;
 }
 .video-overskrift {
