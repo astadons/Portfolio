@@ -347,19 +347,33 @@ header {
 }
 
 .alice1 {
+  /* Dette skaber mellemrummet mellem billederne */
+  gap: 60px;
   width: 40%; /* Gør billedet mindre (80% af sin container) */
   height: auto; /* Sørger for at billedet ikke bliver strukket */
   display: block; /* Fjerner lille mellemrum i bunden */
-  margin: 0 auto; /* Centrerer billedet, hvis det er mindre end kolonnen */
-  padding: 10px;
+  margin-bottom: 60px; /* Skaber luft under billedet */
+  margin-right: 60px; /* Skaber luft til højre for billedet */
 }
 
 .alice4 {
-  width: 80%; /* Gør billedet mindre (80% af sin container) */
+  /* Dette skaber mellemrummet mellem billederne */
+  gap: 60px;
+  width: 40%; /* Gør billedet mindre (80% af sin container) */
   height: auto; /* Sørger for at billedet ikke bliver strukket */
   display: block; /* Fjerner lille mellemrum i bunden */
-  margin: 0 auto; /* Centrerer billedet, hvis det er mindre end kolonnen */
-  padding: 5px;
+  margin-bottom: 60px; /* Skaber luft under billedet */
+  margin-right: 60px; /* Skaber luft til højre for billedet */
+}
+
+.alice5 {
+  /* Dette skaber mellemrummet mellem billederne */
+  gap: 60px;
+  width: 40%; /* Gør billedet mindre (80% af sin container) */
+  height: auto; /* Sørger for at billedet ikke bliver strukket */
+  display: block; /* Fjerner lille mellemrum i bunden */
+  margin-bottom: 60px; /* Skaber luft under billedet */
+  margin-right: 60px; /* Skaber luft til højre for billedet */
 }
 
 /********video 05*****/
