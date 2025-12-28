@@ -389,6 +389,14 @@ header {
   border-radius: 10px; /* Dine pæne runde hjørner */
   border: none; /* Fjerner YouTubes standard kant */
   display: block;
+  border-radius: 10px; /* Dine nuværende runde hjørner */
+  display: block; /* */
+
+  /* HER ER DEN NYE KODE TIL DIN BORDER */
+  border: 5px solid #c90a0a; /* 5px tykkelse, solid linje, mørkegrøn farve */
+
+  /* Valgfrit: tilføj lidt luft mellem video og kant hvis du vil have en ramme-effekt */
+  padding: 0px;
 }
 
 /* ==========================================
