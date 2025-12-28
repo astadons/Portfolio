@@ -365,9 +365,10 @@ header {
 /********video 05*****/
 .video-container {
   position: relative; /* Gør det muligt at placere ting indeni præcist */
-  width: 100%;
+  width: 100%; /* Gør videoen bredere */
   max-width: 800px;
-  margin: 20px auto;
+  margin: 50px auto;
+  height: auto;
 }
 .video-overskrift {
   position: absolute;
