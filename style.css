@@ -374,6 +374,10 @@ header {
   position: absolute;
   bottom: 20px;
   right: 20px;
+  position: absolute;
+  top: 50%; /* Flytter toppen af teksten til midten af videoen */
+  left: 50%; /* Flytter venstre side af teksten til midten */
+  transform: translate(-50%, -50%); /* Trækker teksten tilbage med sin egen halve bredde/højde så den er præcis i centrum */
   /* ... dine andre koder ... */
 
   pointer-events: none; /* Dette gør at du kan klikke "igennem" teksten */
