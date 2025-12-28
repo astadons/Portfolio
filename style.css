@@ -300,9 +300,9 @@ header {
   padding: 10px;
 }
 
-/********erfaring om mig******/
+/********erfaring om mig skema******/
 .skills-container {
-  background-color: #16064c;
+  background-color: #000033;
   padding: 20px;
   font-family: "Arial", sans-serif; /* Brug gerne en sjov font som på billedet */
 }
@@ -329,7 +329,7 @@ input[type="checkbox"] {
   appearance: none; /* Fjerner det normale flueben-look */
   width: 20px;
   height: 20px;
-  background-color: #110653; /* Den grå farve (ikke valgt) */
+  background-color: #696060; /* Den grå farve (ikke valgt) */
   border-radius: 50%; /* Gør den rund */
   cursor: pointer;
   transition: background-color 0.3s;
@@ -337,7 +337,7 @@ input[type="checkbox"] {
 
 /* Farven når den er krydset af (GUL som på dit billede) */
 input[type="checkbox"]:checked {
-  background-color: #f1c40f;
+  background-color: #cf0d0d;
 }
 
 /* Lille hover effekt */
@@ -345,7 +345,7 @@ input[type="checkbox"]:hover {
   border: 2px solid #333;
 }
 
-/* HOVER-EFFEKTEN */
+/********* HOVER-EFFEKTEN ********************/
 .case-item:hover .case-overlay {
   opacity: 1; /* Gør overlayet synligt */
   filter: grayscale(100%);
