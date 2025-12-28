@@ -203,3 +203,32 @@ main {
 .grid-beholder {
   grid-template-columns: 1fr; /* Går tilbage til at stå under hinanden på telefonen */
 }
+
+/**************************
+RESPONSIVT DESIGN (MOBIL)
+***************************/
+
+/* 1. Almindelige regler (Computer) - SKAL STÅ UDENFOR @MEDIA */
+.video-container {
+  position: relative;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.video-overskrift {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 1.2rem; /* Her har du gjort den mindre */
+  color: #8b0000;
+  z-index: 10;
+}
+
+/* 2. Din Media Query HELT I BUNDEN - KUN til ændringer på mobil */
+@media (max-width: 600px) {
+  .video-overskrift {
+    font-size: 0.9rem;
+    top: 10px;
+    left: 10px;
+  }
+}
