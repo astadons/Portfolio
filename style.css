@@ -51,13 +51,16 @@ h3 {
   font-weight: 900;
 }
 p {
-  font-family: "Playfair Display", serif;
-  font-style: italic; /* Gør teksten kursiv */
-  font-weight: 400; /* Hold den slank */
-  font-size: 18px;
-  line-height: 1.7; /* Giver masser af luft */
-  color: #d1d1d1; /* En elegant lys grå */
-  letter-spacing: 0.5px;
+  font-family: "Cardo", serif;
+  font-size: 17.5px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #f2f2f2;
+
+  /* Her er de "fashion" detaljer der gør en forskel: */
+  font-variant: small-caps; /* Små flotte store bogstaver */
+  letter-spacing: 1.5px; /* Luft mellem tegnene */
+  word-spacing: 1.5px; /* Lidt mere plads mellem ordene */
 }
 
 /****om mig***/
