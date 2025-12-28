@@ -29,7 +29,9 @@ h1 {
   line-height: 0.9; /* Trækker linjerne tættere sammen for et stramt look */
   margin: 0;
   color: red; /* Din signatur-rød */
-  font-family: "Serif", serif;
+  font-family: "Bodoni Moda", serif;
+  font-weight: 900;
+  font-style: italic; /* Prøv eventuelt kursiv for et mere "fashion" udtryk */
 }
 
 h2 {
@@ -37,12 +39,15 @@ h2 {
   text-transform: uppercase;
   color: red;
   margin-top: -10px; /* Kan bruges til at "stakke" ordene tættere */
+  font-family: "Bodoni Moda", serif;
+  font-weight: 900;
 }
 
 h3 {
   font-size: 1.5rem;
   margin-block: 0.5rem;
   color: #7c0909;
+  font-family: "Bodoni Moda", serif;
 }
 p {
   font-size: 1rem;
