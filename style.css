@@ -224,6 +224,18 @@ footer {
   color: rgb(255, 255, 255);
 }
 
+.linkedin {
+  color: #ffffff;
+}
+
+.instagram {
+  color: white;
+}
+
+.facebook {
+  color: white;
+}
+
 header {
   position: sticky; /* Eller fixed */
   top: 0;
