@@ -373,16 +373,16 @@ header {
   position: absolute;
   bottom: 20px;
   right: 20px;
-  color: rgb(20, 10, 90);
-  font-size: 1.2rem;
-  z-index: 10;
-  margin: 0;
+  /* ... dine andre koder ... */
+
+  pointer-events: none; /* Dette gør at du kan klikke "igennem" teksten */
 }
 
 .case-video {
-  width: 100%;
-  height: auto;
-  border-radius: 10px; /* Matcher dit design fra før */
+  width: 100%; /* Sørger for at den fylder containeren */
+  aspect-ratio: 16 / 9; /* Vigtigt for YouTube så den ikke bliver mast */
+  border-radius: 10px; /* Dine pæne runde hjørner */
+  border: none; /* Fjerner YouTubes standard kant */
   display: block;
 }
 
