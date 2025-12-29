@@ -410,9 +410,21 @@ input[type="checkbox"]:hover {
   display: block; /* Fjerner lille mellemrum i bunden */
   margin-bottom: 60px; /* Skaber luft under billedet */
   margin-right: 60px; /* Skaber luft til højre for billedet */
+  /* Dette skaber mellemrummet mellem billederne */
+  gap: 60px;
 }
 
 .moodboard {
+  width: 40%; /* Gør billedet mindre (80% af sin container) */
+  height: auto; /* Sørger for at billedet ikke bliver strukket */
+  display: block; /* Fjerner lille mellemrum i bunden */
+  margin-bottom: 60px; /* Skaber luft under billedet */
+  margin-right: 60px; /* Skaber luft til højre for billedet */
+  /* Dette skaber mellemrummet mellem billederne */
+  gap: 60px;
+}
+
+.mor {
   width: 40%; /* Gør billedet mindre (80% af sin container) */
   height: auto; /* Sørger for at billedet ikke bliver strukket */
   display: block; /* Fjerner lille mellemrum i bunden */
