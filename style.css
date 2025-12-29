@@ -65,7 +65,7 @@ p {
 
 /****om mig***/
 .ommigtitel {
-  padding-left: 500px;
+  padding-left: 400px;
 }
 
 /********cta knap***/
@@ -268,7 +268,7 @@ header {
 /* Containeren */
 .case-item {
   position: relative;
-  width: 40%;
+  width: 55%;
   max-width: 800px; /* Eller den størrelse dit billede har */
   cursor: pointer;
   overflow: hidden; /* Holder sløringen inden for billedets kanter */
