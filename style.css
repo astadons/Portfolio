@@ -621,6 +621,93 @@ h1:nth-child(2) {
   animation-delay: 0.5s; /* Vent 0.5 sekund før teksten toner frem */
 }
 
+/* Animationen der gør dem synlige */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px); /* De starter 30px nede */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* De slutter på deres rette plads */
+  }
+}
+
+/* Tilføj dette til dine eksisterende klasser */
+.dons,
+.moodboard,
+.mor {
+  opacity: 0; /* Starter som usynlig */
+  animation: fadeInUp 1.2s ease-out forwards;
+}
+
+/* Gør det "sjovt" ved at lade dem komme ind med forskudt tid */
+.dons {
+  animation-delay: 0.2s;
+}
+
+.moodboard {
+  animation-delay: 0.6s;
+}
+
+.mor {
+  animation-delay: 1s;
+}
+
+/* indhol alice billeder animation*/
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 2. Sæt animationen på alle tre billeder (Husk KOMMA mellem navnene) */
+.alice1,
+.alice4,
+.alice5 {
+  opacity: 0; /* Starter som usynlig */
+  animation: fadeInUp 1.2s ease-out forwards;
+}
+
+/* 3. Forsinkelserne (disse ser fine ud) */
+.alice1 {
+  animation-delay: 0.2s;
+}
+.alice4 {
+  animation-delay: 0.6s;
+}
+.alice5 {
+  animation-delay: 1s;
+}
+
+/*** om mig billede animation**/
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8); /* Starter mindre */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1); /* Popper ud til fuld størrelse */
+  }
+}
+
+.om-mig-billede {
+  animation: popIn 1s cubic-bezier(0.17, 0.67, 0.83, 0.67) forwards;
+}
+
+.om-mig-billede {
+  transform: scale(1.05); /* Øger størrelsen med 5% */
+  transition: transform 0.4s ease-in-out; /* Gør bevægelsen blød */
+  cursor: pointer;
+}
+
 /*** forside cta hoppende kanp***/
 
 /* Anvend den på din knap */
