@@ -191,6 +191,19 @@
         <p class="copyright">© 2026 Asta Dons Portfolio</p>
     </footer>
 
+
+    <script>
+        const header = document.querySelector("header");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 50) {
+                header.classList.add("header-scrolled");
+            } else {
+                header.classList.remove("header-scrolled");
+            }
+        });
+    </script>
+
     <script src="burger.js">
     </script>
 </body>

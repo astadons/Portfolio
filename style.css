@@ -731,3 +731,12 @@ h1:nth-child(2) {
   background-color: red;
   color: #000033;
 }
+
+/***JS scroll***/
+/* Denne styling aktiveres kun når JS tilføjer klassen ved scroll */
+.header-scrolled {
+  background-color: rgba(255, 255, 255, 0.9); /* Gør den f.eks. lidt mørkere og gennemsigtig */
+  backdrop-filter: blur(5px); /* Giver en lækker glas-effekt */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
