@@ -9,7 +9,7 @@ function burgerClick() {
   nav.classList.toggle("active");
 }
 
-// TILFØJ DIN NYE SCROLL-KODE HERUNDER
+// NYE SCROLL-KODE
 const header = document.querySelector("header");
 
 window.addEventListener("scroll", () => {
