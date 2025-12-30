@@ -698,16 +698,6 @@ h1:nth-child(2) {
   }
 }
 
-.om-mig-billede {
-  animation: popIn 1s cubic-bezier(0.17, 0.67, 0.83, 0.67) forwards;
-}
-
-.om-mig-billede {
-  transform: scale(1.05); /* Øger størrelsen med 5% */
-  transition: transform 0.4s ease-in-out; /* Gør bevægelsen blød */
-  cursor: pointer;
-}
-
 /*** forside cta hoppende kanp***/
 
 /* Anvend den på din knap */
