@@ -31,14 +31,14 @@ h1 {
   color: red; /* Din signatur-rød */
   font-family: "Bodoni Moda", serif;
   font-weight: 900;
-  font-style: italic; /* Prøv eventuelt kursiv for et mere "fashion" udtryk */
+  font-style: italic; /* kursiv for et mere "fashion" udtryk */
 }
 
 h2 {
   font-size: 5vw; /* Gør dine underskrifter (f.eks. Portfolio) store, men mindre end h1 */
   text-transform: uppercase;
   color: red;
-  margin-top: -10px; /* Kan bruges til at "stakke" ordene tættere */
+  margin-top: -10px; /* bruges til at "stakke" ordene tættere */
   font-family: "Bodoni Moda", serif;
   font-weight: 900;
 }
@@ -73,7 +73,7 @@ p {
   color: white;
   text-decoration: none;
   font-family: "Bodoni Moda", serif;
-  border-bottom: 1px solid red; /* En tynd rød streg der matcher dit A */
+  border-bottom: 1px solid red; /* En tynd rød streg der matcher mit A */
   padding-bottom: 2px;
 }
 
@@ -82,16 +82,16 @@ p {
   justify-content: center;
   gap: 20px;
   padding: 50px 0;
-  background-color: rgb(11, 17, 75); /* Din mørkeblå farve */
+  background-color: rgb(11, 17, 75); /*  mørkeblå farve */
 }
 
 .cta-box {
   padding: 10px 30px;
-  border: 2px solid red; /* Den røde farve fra dit logo */
+  border: 2px solid red; /* Den røde farve fra mit logo */
   background-color: rgb(11, 17, 75);
   text-decoration: none;
   font-family: "Cardo", serif;
-  color: white; /* Din Vogue-inspirerede font */
+  color: white; /*  Vogue-inspirerede font */
   text-transform: uppercase;
   font-weight: bold;
   transition: all 0.3s ease;
@@ -112,7 +112,7 @@ p {
 
 /*******footer****/
 footer {
-  background-color: rgb(11, 17, 75); /* Din mørkeblå */
+  background-color: rgb(11, 17, 75); /*  mørkeblå */
   padding: 10px 40px;
   border-top: 1px solid rgba(255, 0, 0, 0.3); /* En meget svag rød linje øverst */
   color: white;
@@ -151,7 +151,7 @@ footer {
 }
 
 .footer-links a:hover {
-  color: red; /* Din signatur-rød */
+  color: red; /*  signatur-rød */
 }
 
 footer ul {
@@ -258,18 +258,18 @@ header {
   position: sticky; /* Eller fixed */
   top: 0;
   z-index: 1000; /* Et højt tal sikrer, at den ligger øverst */
-  background-color: #000033; /* Husk baggrundsfarve, så man ikke kan se billedet igennem */
+  background-color: #000033; /* Husk baggrundsfarve */
 }
 
 .case-item {
   z-index: 1; /* Sørg for at billedet har et lavere tal end headeren */
 }
 
-/* Containeren */
+/**** Containeren *****/
 .case-item {
   position: relative;
   width: 55%;
-  max-width: 800px; /* Eller den størrelse dit billede har */
+  max-width: 800px; /* Eller den størrelse billedet har */
   cursor: pointer;
   overflow: hidden; /* Holder sløringen inden for billedets kanter */
 }
@@ -280,7 +280,7 @@ header {
 .case-image {
   width: 100%;
   display: block;
-  transition: transform 0.5s ease; /* Lille zoom-effekt hvis du vil */
+  transition: transform 0.5s ease; /* Lille zoom-effekt  */
   padding: 20px;
 }
 
@@ -291,7 +291,7 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(20, 20, 103, 0.7); /* Din mørkeblå med gennemsigtighed */
+  background-color: rgba(20, 20, 103, 0.7); /* mørkeblå med gennemsigtighed */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -306,7 +306,7 @@ header {
 .overlay-text {
   color: white;
   font-size: 1.5rem; /* Gør det stort! */
-  font-family: "Serif", serif;
+  font-family: "Cardo", serif;
   letter-spacing: 2.5px;
 }
 
@@ -322,7 +322,7 @@ header {
 .skills-container {
   background-color: #000033;
   padding: 20px;
-  font-family: "Arial", sans-serif; /* Brug gerne en sjov font som på billedet */
+  font-family: "Cardo", serif;
 }
 
 .skill {
