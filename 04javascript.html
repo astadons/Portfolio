@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="da">
 
-<<head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Asta Dons Portfolio - Multimediedesign med fokus på førhen projekter.">
@@ -12,96 +12,170 @@
 
     <link rel="stylesheet" href="layout.css">
     <link rel="stylesheet" href="style.css">
-    </head>
+</head>
 
-    </head>
 
-    <body>
-        <header>
-            <a href="index.html">
-                <img src="img/A1.svg" alt="Mit Logo" class="logo">
-            </a>
-            <nav>
-                <ul class="menu">
-                    <li><a href="index.html">Forside</a></li>
-                    <li><a href="02web.html">Web</a></li>
-                    <li><a href="03UX.html">UX/UI</a></li>
-                    <li><a href="04javascript.html">JS</a></li>
-                    <li><a href="05indhold.html">Indhold</a></li>
-                    <li><a href="06ommig.html">Om mig</a></li>
-                </ul>
-                <button class="burger">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                </button>
-            </nav>
-        </header>
 
-        <main>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="img/A1.svg" alt="Mit Logo" class="logo">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="02web.html">Web</a></li>
+                <li><a href="03UX.html">UX/UI</a></li>
+                <li><a href="04javascript.html">JS</a></li>
+                <li><a href="05indhold.html">Indhold</a></li>
+                <li><a href="06ommig.html">Om mig</a></li>
+            </ul>
+            <button class="burger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
+        </nav>
+    </header>
 
-            <h2> Sindets stodder - projekt</h2>
+    <main>
 
-            <div class="case-item">
-                <img src="img/tale-kopi.webp" alt="sindets stodder" class="case-image">
+        <h2 class="sindets-stodder"> Sindets stodder</h2>
 
-                <div class="case-overlay">
-                    <h2 class="overlay-text">TEMA 04 </h2>
-                    <a href="https://astadons.github.io/sindets-stodder/" class="cta-box">Se projekt</a>
-                </div>
+        <div class="case-item">
+            <img src="img/tale-kopi.webp" alt="sindets stodder" class="case-image">
+
+            <div class="case-overlay">
+                <h2 class="overlay-text">TEMA 04 </h2>
+                <a href="https://astadons.github.io/sindets-stodder/" class="cta-box">Se projekt</a>
+            </div>
+        </div>
+
+        <div class="tekst-indhold fade-in-text">
+
+            <p>I dette forløb har jeg lært om javascript, som skal forbindes til en HTML som man gør ved at indsætte
+                script src="js/main.js" i bunden.
+                Derudover lærte vi om hvordan javascript styrer specifikke funktioner på siden. Varibaler bruger dem
+                til at gemme informationer eller elementer fra din HTML (f.eks. const knap =
+                document.querySelector("#mode-btn"), så du kan styre dem senere. Det er her, du laver logik. Du kan
+                få siden til at tjekke: "Hvis brugeren har klikket her, så gør dette".</p>
+            <p>Forms bruges til at indsamle brugerdata via felter som input, og kræver event.preventDefault() i
+                JavaScript for at
+                stoppe siden i at genindlæse ved afsendelse. Ved at bruge .value kan du udtrække det, brugeren har
+                skrevet, og bruge
+                logik til at give direkte feedback på siden.
+                <img src="img/forms.webp" alt="forms" class="forms">
+            </p>
+
+            <p>Git versionsstyring var også under dette tema, og Git fungerer som en logbog over din kode, hvor du
+                bruger git commit til at gemme dine fremskridt som "sikre punkter".
+                Det gør det muligt at rulle fejl tilbage og gemme dit projekt sikkert online via git push.
+            <p>Dermed lærte vi om dialog
+                En Dialog er et popup-vindue, der bruges til vigtige beskeder eller valg, og som styres med
+                JavaScript-metoderne
+                .showModal() og .close(). Det adskiller sig fra almindeligt indhold ved at ligge i et øverste lag,
+                som tvinger brugeren
+                til at tage stilling, før de kan klikke videre på siden.</p>
+            <div>
+                <p> Tilsidst i temaet lærte vi om Animationer og light and dark mode. Men animationer skaber
+                    flydende
+                    overgange eller bevægelser, ofte ved at JavaScript tilføjer en CSS-klasse, der udløser en
+                    transition eller @keyframes. Dette giver brugeren visuel feedback og gør oplevelsen af siden
+                    mere
+                    professionel.</p>
+            </div>
+            <div>
+                <p>Light og Dark Mode fungerer ved, at en knap med en click-event trigger funktionen toggleTheme.
+                    Denne
+                    funktion bruger
+                    classList.toggle('dark') på html-elementet til at skifte mellem lyst og mørkt tema.</p>
+                <img src="img/light.webp" alt="light and dark mode" class="light">
+            </div>
+            <section>
+                <h2 class="Emergency">Emergency Site</h2>
+
+
+                <h3>Læring</h3>
+
+                <p>Jeg har lært en del om, hvordan JavaScript og CSS arbejder sammen, men jeg må også indrømme, at
+                    **Light og Dark Mode**
+                    var det sværeste. Det lykkedes mig desværre ikke at få det til at virke i denne opgave. Selvom jeg
+                    forstår teorien om,
+                    at en `toggle`-funktion i JavaScript skal skifte en klasse i HTML, så var det en stor udfordring at
+                    få CSS-variablerne
+                    til at reagere rigtigt. Det har lært mig, at fejlfinding tager tid, og at det kræver præcision at
+                    forbinde logikken med
+                    designet.</p>
+
+                <h3>Proces</h3>
+
+                <p>Min proces har været præget af en del eksperimenter. Jeg har brugt meget tid på at få layoutet på
+                    plads, så overskrifter
+                    og billeder står rigtigt. For at holde styr på koden har jeg brugt **Git**, så jeg kunne gemme mine
+                    fremskridt. Da jeg
+                    sad med tema-skiftet og ikke kunne få det til at fungere, brugte jeg meget tid på at tjekke mine
+                    selectors i JavaScript
+                    for at se, om de overhovedet fik fat i de rigtige elementer.</p>
+
+                <h3>Løsning</h3>
+
+                <p>Resultatet er et "Emergency Site", hvor jeg har fokuseret på at skabe et klart visuelt udtryk for
+                    "stodder-tankerne". Da
+                    selve teknikken bag Light/Dark mode drillede og ikke kom til at virke, har jeg i stedet prioriteret
+                    at få overskriften
+                    "Emergency Site" centreret helt præcist og skabt den rette luft i designet med `margin-top`. Selvom
+                    funktionen mangler,
+                    står siden nu skarpt og overskueligt for brugeren.</p>
+
+
+
+            </section>
+        </div>
+
+
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+
+            <div class="footer-links">
+                <h3>Udforsk</h3>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="02web.html">Web</a></li>
+                <li><a href="03UX.html">UX/UI</a></li>
+                <li><a href="04javascript.html">JS</a></li>
+                <li><a href="05indhold.html">Indhold</a></li>
+                <li><a href="06ommig.html">Om mig</a></li>
             </div>
 
-            <div class="tekst-indhold fade-in-text">
-
-
-
-
+            <div class="footer-contact">
+                <h3>Kontakt</h3>
+                <p>Mail: Astadons02@gmail.com</p>
+                <p>Telefon nummer: 26506609</p>
+                <a class="linkedin" href="https://www.linkedin.com/feed/" target="_blank">linkedin</a>
+                <a class="instagram" href="https://instagram.com/Astadons" target="_blank">Instagram</a>
+                <a class="facebook" href="https://www.facebook.com/home.php" target="_blank">Facebook</a>
             </div>
+        </div>
+        <p class="copyright">© 2026 Asta Dons Portfolio</p>
+    </footer>
 
+    <script>
+        const header = document.querySelector("header");
 
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 50) {
+                header.classList.add("header-scrolled");
+            } else {
+                header.classList.remove("header-scrolled");
+            }
+        });
+    </script>
 
-        </main>
-
-        <footer>
-            <div class="footer-content">
-
-                <div class="footer-links">
-                    <h3>Udforsk</h3>
-                    <li><a href="index.html">Forside</a></li>
-                    <li><a href="02web.html">Web</a></li>
-                    <li><a href="03UX.html">UX/UI</a></li>
-                    <li><a href="04javascript.html">JS</a></li>
-                    <li><a href="05indhold.html">Indhold</a></li>
-                    <li><a href="06ommig.html">Om mig</a></li>
-                </div>
-
-                <div class="footer-contact">
-                    <h3>Kontakt</h3>
-                    <p>Mail: Astadons02@gmail.com</p>
-                    <p>Telefon nummer: 26506609</p>
-                    <a class="linkedin" href="https://www.linkedin.com/feed/" target="_blank">linkedin</a>
-                    <a class="instagram" href="https://instagram.com/Astadons" target="_blank">Instagram</a>
-                    <a class="facebook" href="https://www.facebook.com/home.php" target="_blank">Facebook</a>
-                </div>
-            </div>
-            <p class="copyright">© 2026 Asta Dons Portfolio</p>
-        </footer>
-
-        <script>
-            const header = document.querySelector("header");
-
-            window.addEventListener("scroll", () => {
-                if (window.scrollY > 50) {
-                    header.classList.add("header-scrolled");
-                } else {
-                    header.classList.remove("header-scrolled");
-                }
-            });
-        </script>
-
-        <script src="burger.js">
-        </script>
-        <script src="js/main.js"></script>
-    </body>
+    <script src="burger.js">
+    </script>
+    <script src="js/main.js"></script>
+</body>
 
 </html>

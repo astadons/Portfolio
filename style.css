@@ -274,14 +274,22 @@ header {
   overflow: hidden; /* Holder sløringen inden for billedets kanter */
 }
 
+/**teksten til emergency**/
+.Emergency {
+  text-align: center;
+  margin-top: 50px; /* Jo højere tal, jo længere ned kommer titlen */
+}
+
 /***** alle menu billeder***/
 
 /* Selve billedet */
 .case-image {
-  width: 100%;
   display: block;
   transition: transform 0.5s ease; /* Lille zoom-effekt  */
   padding: 20px;
+  margin-left: auto; /* Skubber fra venstre */
+  margin-right: auto; /* Skubber fra højre */
+  width: 70%; /* Bestemmer størrelsen (match de andre for ensartethed) */
 }
 
 /* Det sorte/slørede lag (Overlay) */
@@ -462,6 +470,22 @@ input[type="checkbox"]:hover {
   display: block; /* Fjerner lille mellemrum i bunden */
   margin-bottom: 60px; /* Skaber luft under billedet */
   margin-right: 60px; /* Skaber luft til højre for billedet */
+}
+
+.forms {
+  width: 60%; /* Gør billedet mindre (60% af sin container) */
+  height: auto; /* Sørger for at billedet ikke bliver strukket */
+  display: block; /* Fjerner lille mellemrum i bunden */
+  margin: 0 auto; /* Centrerer billedet, hvis det er mindre end kolonnen */
+  padding: 10px;
+}
+
+.light {
+  width: 50%; /* Gør billedet mindre (60% af sin container) */
+  height: auto; /* Sørger for at billedet ikke bliver strukket */
+  display: block; /* Fjerner lille mellemrum i bunden */
+  margin: 0 auto; /* Centrerer billedet, hvis det er mindre end kolonnen */
+  padding: 10px;
 }
 
 /********video 05*****/
