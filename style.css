@@ -284,12 +284,14 @@ header {
 
 /* Selve billedet */
 .case-image {
-  display: block;
-  transition: transform 0.5s ease; /* Lille zoom-effekt  */
+  display: block; /* Gør billedet til en blok */
+  width: 90%; /* Gør billedet stort (som du ønskede) */
+  margin-left: auto; /* Centrerer ved at skubbe fra venstre */
+  margin-right: auto; /* Centrerer ved at skubbe fra højre */
+  height: auto; /* Sikrer at billedet ikke bliver strukket */
+  transition: transform 0.5s ease;
   padding: 20px;
-  margin-left: auto; /* Skubber fra venstre */
-  margin-right: auto; /* Skubber fra højre */
-  width: 70%; /* Bestemmer størrelsen (match de andre for ensartethed) */
+  text-align: center; /* Dette rykker teksten ind i midten */
 }
 
 /* Det sorte/slørede lag (Overlay) */
