@@ -285,12 +285,12 @@ header {
 /* Selve billedet */
 .case-image {
   display: block; /* Gør billedet til en blok */
-  width: 90%; /* Gør billedet stort (som du ønskede) */
+  width: 80%; /* Gør billedet stort (som du ønskede) */
   margin-left: auto; /* Centrerer ved at skubbe fra venstre */
   margin-right: auto; /* Centrerer ved at skubbe fra højre */
   height: auto; /* Sikrer at billedet ikke bliver strukket */
   transition: transform 0.5s ease;
-  padding: 20px;
+  padding: 30px;
   text-align: center; /* Dette rykker teksten ind i midten */
 }
 
@@ -393,7 +393,7 @@ input[type="checkbox"]:hover {
 
 .ux-ui {
   padding: 200px;
-  margin: 35;
+  margin: 35px;
 }
 
 .media {
