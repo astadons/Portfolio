@@ -399,11 +399,11 @@ input[type="checkbox"]:hover {
 }
 
 .media {
-  width: 40%; /* Gør billedet mindre (80% af sin container) */
-  height: auto; /* Sørger for at billedet ikke bliver strukket */
-  display: block; /* Fjerner lille mellemrum i bunden */
-  margin: 0 auto; /* Centrerer billedet, hvis det er mindre end kolonnen */
-  padding: 10px;
+  width: 70%; /* Gør billedet mindre (f.eks. 70% af skærmen) */
+  max-width: 250px; /* Sætter en fast grænse for, hvor stort det må blive */
+  height: auto; /* Sikrer at billedet ikke bliver strakt */
+  margin: 0 auto; /* Centrerer billedet, når det er mindre end 100% */
+  display: block; /* Nødvendigt for at margin: auto virker */
 }
 
 .box-modellen {
