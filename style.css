@@ -288,14 +288,11 @@ header {
 
 /* Selve billedet */
 .case-image {
-  display: block; /* Gør billedet til en blok */
-  width: 80%; /* Gør billedet stort (som du ønskede) */
-  margin-left: auto; /* Centrerer ved at skubbe fra venstre */
-  margin-right: auto; /* Centrerer ved at skubbe fra højre */
-  height: auto; /* Sikrer at billedet ikke bliver strukket */
-  transition: transform 0.5s ease;
-  padding: 35px 25px;
-  text-align: center; /* Dette rykker teksten ind i midten */
+  display: block;
+  width: 80%;
+  margin: 0 auto; /* Dette kombinerer venstre/højre auto og SKAL centrere en blok */
+  height: auto;
+  padding: 40px 25px; /* Vær opmærksom på at padding kan skubbe visuelt hvis containeren er lille */
 }
 
 /* Det sorte/slørede lag (Overlay) */
