@@ -279,6 +279,11 @@ header {
   margin-top: 50px; /* Jo højere tal, jo længere ned kommer titlen */
 }
 
+.tema2 {
+  text-align: center;
+  margin-top: 50px; /* Jo højere tal, jo længere ned kommer titlen */
+}
+
 /***** alle menu billeder***/
 
 /* Selve billedet */
