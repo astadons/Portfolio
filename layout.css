@@ -200,8 +200,15 @@ main {
     padding: 10px;
   }
 }
+
 .grid-beholder {
   grid-template-columns: 1fr; /* Går tilbage til at stå under hinanden på telefonen */
+}
+
+.case-image {
+  width: 95%; /* Gør billedet bredere på små skærme */
+  padding: 10px; /* Mindre padding så det ikke bliver mast */
+  margin: 0 auto; /* Holder det centreret */
 }
 
 /**************************
