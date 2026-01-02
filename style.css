@@ -521,9 +521,9 @@ input[type="checkbox"]:hover {
 }
 
 /****text til videoopgaven***/
-.text-videoopgaven {
+.text-videoopgaven1 {
   /* Border udenom */
-  border: 4px solid #0a022b;
+  border: 2.5px solid #960808;
   border-radius: 8px;
   padding: 20px;
 }
