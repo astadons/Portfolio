@@ -156,12 +156,6 @@ footer {
   color: red; /*  signatur-rød */
 }
 
-footer ul {
-  list-style-type: none; /* Fjerner prikkerne */
-  padding: 0; /* Fjerner standard indrykning så teksten flugter til venstre */
-  margin: 0;
-}
-
 /*********logo*****/
 .main-logo {
   /* Justér denne værdi for at gøre det større */
@@ -246,14 +240,17 @@ footer {
 
 .linkedin {
   color: #ffffff;
+  font-family: "Cardo", serif;
 }
 
 .instagram {
   color: white;
+  font-family: "Cardo", serif;
 }
 
 .facebook {
   color: white;
+  font-family: "Cardo", serif;
 }
 
 header {
