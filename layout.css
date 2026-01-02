@@ -180,7 +180,7 @@ main {
   .case-container {
     flex-direction: column;
     gap: 20px;
-    padding: 30px;
+    padding: 40px 20px; /* Mere luft top/bund, god luft i siderne */
     text-align: center;
   }
 
