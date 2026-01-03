@@ -70,7 +70,7 @@ p {
   padding-left: 400px;
 }
 
-/********cta knap***/
+/********cta knap og hover***/
 .social-link {
   color: white;
   text-decoration: none;
@@ -156,7 +156,7 @@ footer {
   color: red; /*  signatur-rød */
 }
 
-/*********logo*****/
+/********* A logo*****/
 .main-logo {
   /* Justér denne værdi for at gøre det større */
   width: 300px;
@@ -169,7 +169,7 @@ footer {
   margin: 20px auto; /* Centrerer logoet og giver luft (whitespace) */
 }
 
-/**********************menu****************************************/
+/**********************menuen*************************************/
 
 header {
   position: sticky;
@@ -185,7 +185,7 @@ header {
 header a {
   position: relative;
   z-index: 9999; /* Dette tvinger logoet helt frem i forreste lag */
-  cursor: pointer; /* Dette sikrer, at musen skifter til en "hånd" */
+  cursor: pointer;
 }
 
 .menu {
