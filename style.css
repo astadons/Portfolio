@@ -26,19 +26,19 @@ body {
 h1 {
   font-size: 12vw; /* Gør ASTA DONS gigantisk */
   text-transform: uppercase;
-  line-height: 0.9; /* Trækker linjerne tættere sammen for et stramt look */
+  line-height: 0.9;
   margin: 0;
-  color: red; /* Din signatur-rød */
+  color: red;
   font-family: "Bodoni Moda", serif;
   font-weight: 900;
-  font-style: italic; /* kursiv for et mere "fashion" udtryk */
+  font-style: italic;
 }
 
 h2 {
-  font-size: 5vw; /* Gør dine underskrifter (f.eks. Portfolio) store, men mindre end h1 */
+  font-size: 5vw;
   text-transform: uppercase;
   color: red;
-  margin-top: -10px; /* bruges til at "stakke" ordene tættere */
+  margin-top: -10px;
   font-family: "Bodoni Moda", serif;
   font-weight: 900;
 }
@@ -62,10 +62,9 @@ p {
 
   color: #f2f2f2;
   line-height: 1.6; /* Giver luft mellem linjerne i afsnit */
-  margin-bottom: 20px; /* Giver luft mellem forskellige tekststykker */
+  margin-bottom: 20px; /* Giver luft mellem teksterne*/
 
-  /* Her er de "fashion" detaljer der gør en forskel: */
-  font-variant: small-caps; /* Små flotte store bogstaver */
+  font-variant: small-caps;
   letter-spacing: 1.5px; /* Luft mellem tegnene */
   word-spacing: 1.5px; /* Lidt mere plads mellem ordene */
 }
@@ -126,7 +125,7 @@ footer {
   font-family: "Cardo", serif;
   footer {
     padding: 10px 0; /* Meget lidt luft i top og bund */
-    height: auto; /* Den fylder kun det, teksten fylder */
+    height: auto;
   }
 }
 
@@ -158,18 +157,13 @@ footer {
 }
 
 .footer-links a:hover {
-  color: red; /*  signatur-rød */
+  color: red;
 }
 
 /********* A logo*****/
 .main-logo {
-  /* Justér denne værdi for at gøre det større */
   width: 300px;
-
-  /* Auto sikrer, at logoet ikke bliver mast/deformt */
   height: auto;
-
-  /* Gør det skarpt (godt til monogrammer) */
   display: block;
   margin: 20px auto; /* Centrerer logoet og giver luft (whitespace) */
 }
@@ -259,10 +253,10 @@ footer {
 }
 
 header {
-  position: sticky; /* Eller fixed */
+  position: sticky;
   top: 0;
   z-index: 1000; /* Et højt tal sikrer, at den ligger øverst */
-  background-color: #000033; /* Husk baggrundsfarve */
+  background-color: #000033;
 }
 
 .case-item {
@@ -273,7 +267,7 @@ header {
 .case-item {
   position: relative;
   width: 55%;
-  max-width: 800px; /* Eller den størrelse billedet har */
+  max-width: 800px;
   cursor: pointer;
   overflow: hidden; /* Holder sløringen inden for billedets kanter */
 }
@@ -281,12 +275,12 @@ header {
 /**teksten til emergency**/
 .Emergency {
   text-align: center;
-  margin-top: 50px; /* Jo højere tal, jo længere ned kommer titlen */
+  margin-top: 50px;
 }
 
 .tema2 {
   text-align: center;
-  margin-top: 50px; /* Jo højere tal, jo længere ned kommer titlen */
+  margin-top: 50px;
 }
 
 /***** alle menu billeder***/
@@ -297,7 +291,7 @@ header {
   width: 80%;
   margin: 0 auto; /* Dette kombinerer venstre/højre auto og SKAL centrere en blok */
   height: auto;
-  padding: 40px 25px; /* Vær opmærksom på at padding kan skubbe visuelt hvis containeren er lille */
+  padding: 40px 25px;
 }
 
 /* Det sorte/slørede lag (Overlay) */
@@ -307,7 +301,7 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(20, 20, 103, 0.7); /* mørkeblå med gennemsigtighed */
+  background-color: rgba(20, 20, 103, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -328,9 +322,9 @@ header {
 
 .om-mig-billede {
   width: 80%; /* Gør billedet mindre (80% af sin container) */
-  height: auto; /* Sørger for at billedet ikke bliver strukket */
+  height: auto;
   display: block; /* Fjerner lille mellemrum i bunden */
-  margin: 0 auto; /* Centrerer billedet, hvis det er mindre end kolonnen */
+  margin: 0 auto;
   padding: 10px;
 }
 
@@ -358,18 +352,18 @@ header {
   gap: 8px;
 }
 
-/* Her styler vi selve checkboxen til at ligne en cirkel */
+/* styler checkboxen til at ligne en cirkel */
 input[type="checkbox"] {
   appearance: none; /* Fjerner det normale flueben-look */
   width: 20px;
   height: 20px;
-  background-color: #696060; /* Den grå farve (ikke valgt) */
+  background-color: #696060;
   border-radius: 50%; /* Gør den rund */
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
-/* Farven når den er krydset af (GUL som på dit billede) */
+/* Farven når den er krydset af */
 input[type="checkbox"]:checked {
   background-color: #cf0d0d;
 }
@@ -405,16 +399,16 @@ input[type="checkbox"]:hover {
 .media {
   width: 70%; /* Gør billedet mindre (f.eks. 70% af skærmen) */
   max-width: 250px; /* Sætter en fast grænse for, hvor stort det må blive */
-  height: auto; /* Sikrer at billedet ikke bliver strakt */
-  margin: 0 auto; /* Centrerer billedet, når det er mindre end 100% */
-  display: block; /* Nødvendigt for at margin: auto virker */
+  height: auto;
+  margin: 0 auto;
+  display: block;
 }
 
 .box-modellen {
   width: 40%; /* Gør billedet mindre (80% af sin container) */
-  height: auto; /* Sørger for at billedet ikke bliver strukket */
-  display: block; /* Fjerner lille mellemrum i bunden */
-  margin: 0 auto; /* Centrerer billedet, hvis det er mindre end kolonnen */
+  height: auto;
+  display: block;
+  margin: 0 auto;
   padding: 10px;
 }
 
@@ -422,30 +416,30 @@ input[type="checkbox"]:hover {
   /* Dette skaber mellemrummet mellem billederne */
   gap: 60px;
   width: 40%; /* Gør billedet mindre (80% af sin container) */
-  height: auto; /* Sørger for at billedet ikke bliver strukket */
-  display: block; /* Fjerner lille mellemrum i bunden */
-  margin-bottom: 60px; /* Skaber luft under billedet */
-  margin-right: 60px; /* Skaber luft til højre for billedet */
-  /* Dette skaber mellemrummet mellem billederne */
+  height: auto;
+  display: block;
+  margin-bottom: 60px;
+  margin-right: 60px;
+  /* skaber mellemrummet mellem billederne */
   gap: 60px;
 }
 
 .moodboard {
   width: 40%; /* Gør billedet mindre (80% af sin container) */
-  height: auto; /* Sørger for at billedet ikke bliver strukket */
+  height: auto;
   display: block; /* Fjerner lille mellemrum i bunden */
-  margin-bottom: 60px; /* Skaber luft under billedet */
-  margin-right: 60px; /* Skaber luft til højre for billedet */
+  margin-bottom: 60px;
+  margin-right: 60px;
   /* Dette skaber mellemrummet mellem billederne */
   gap: 60px;
 }
 
 .mor {
   width: 40%; /* Gør billedet mindre (80% af sin container) */
-  height: auto; /* Sørger for at billedet ikke bliver strukket */
+  height: auto;
   display: block; /* Fjerner lille mellemrum i bunden */
-  margin-bottom: 60px; /* Skaber luft under billedet */
-  margin-right: 60px; /* Skaber luft til højre for billedet */
+  margin-bottom: 60px;
+  margin-right: 60px;
   /* Dette skaber mellemrummet mellem billederne */
   gap: 60px;
 }
@@ -454,54 +448,54 @@ input[type="checkbox"]:hover {
   /* Dette skaber mellemrummet mellem billederne */
   gap: 60px;
   width: 40%; /* Gør billedet mindre (80% af sin container) */
-  height: auto; /* Sørger for at billedet ikke bliver strukket */
+  height: auto;
   display: block; /* Fjerner lille mellemrum i bunden */
-  margin-bottom: 60px; /* Skaber luft under billedet */
-  margin-right: 60px; /* Skaber luft til højre for billedet */
+  margin-bottom: 60px;
+  margin-right: 60px;
 }
 
 .alice4 {
   /* Dette skaber mellemrummet mellem billederne */
   gap: 60px;
   width: 40%; /* Gør billedet mindre (80% af sin container) */
-  height: auto; /* Sørger for at billedet ikke bliver strukket */
+  height: auto;
   display: block; /* Fjerner lille mellemrum i bunden */
-  margin-bottom: 60px; /* Skaber luft under billedet */
-  margin-right: 60px; /* Skaber luft til højre for billedet */
+  margin-bottom: 60px;
+  margin-right: 60px;
 }
 
 .alice5 {
   /* Dette skaber mellemrummet mellem billederne */
   gap: 60px;
   width: 40%; /* Gør billedet mindre (80% af sin container) */
-  height: auto; /* Sørger for at billedet ikke bliver strukket */
+  height: auto;
   display: block; /* Fjerner lille mellemrum i bunden */
-  margin-bottom: 60px; /* Skaber luft under billedet */
-  margin-right: 60px; /* Skaber luft til højre for billedet */
+  margin-bottom: 60px;
+  margin-right: 60px;
 }
 
 .forms {
   width: 60%; /* Gør billedet mindre (60% af sin container) */
-  height: auto; /* Sørger for at billedet ikke bliver strukket */
+  height: auto;
   display: block; /* Fjerner lille mellemrum i bunden */
-  margin: 0 auto; /* Centrerer billedet, hvis det er mindre end kolonnen */
+  margin: 0 auto;
   padding: 10px;
 }
 
 .light {
   width: 50%; /* Gør billedet mindre (60% af sin container) */
-  height: auto; /* Sørger for at billedet ikke bliver strukket */
+  height: auto;
   display: block; /* Fjerner lille mellemrum i bunden */
-  margin: 0 auto; /* Centrerer billedet, hvis det er mindre end kolonnen */
+  margin: 0 auto;
   padding: 10px;
 }
 
 /********video 05*****/
 .video-container {
   position: relative;
-  width: 100%; /* Bevar denne for responsivitet */
+  width: 100%;
   max-width: 1200px; /* Ændr fra 800px til f.eks. 1200px for et større format */
-  margin: 50px auto; /* Centrerer videoen på siden */
+  margin: 50px auto;
   height: auto;
 }
 .video-overskrift {
@@ -518,11 +512,11 @@ input[type="checkbox"]:hover {
 }
 
 .case-video {
-  width: 100%; /* Sørger for at den fylder containeren */
-  border: none; /* Fjerner YouTubes standard kant */
+  width: 100%;
+  border: none; /* Fjerner kanten */
   display: block;
-  border-radius: 10px; /* Dine nuværende runde hjørner */
-  display: block; /* */
+  border-radius: 10px;
+  display: block;
 }
 
 /****text til videoopgaven***/
@@ -545,7 +539,7 @@ input[type="checkbox"]:hover {
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(20px); /* Gør at den dumper lidt op nedefra */
+    transform: translateY(20px); /* nedefra */
   }
   to {
     opacity: 1;
@@ -754,8 +748,7 @@ h1:nth-child(2) {
   color: #000033;
 }
 
-/***JS scroll***/
-/* Denne styling aktiveres kun når JS tilføjer klassen ved scroll */
+/***JS scroll effekt***/ /* aktiveres kun når JS tilføjer klassen ved scroll */
 .header-scrolled {
   background-color: rgba(255, 255, 255, 0.9); /* Gør den f.eks. lidt mørkere og gennemsigtig */
   backdrop-filter: blur(5px); /* Giver en lækker glas-effekt */
