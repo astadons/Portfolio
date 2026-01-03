@@ -152,11 +152,13 @@ main {
    ========================================== */
 
 @media screen and (max-width: 768px) {
-  /* 1. Header & Menu */
   header {
+    display: flex;
     flex-direction: column;
-    padding: 15px 0;
-    text-align: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 10px; /* Lidt luft i siderne også */
+    padding-top: 40px;
   }
 
   .logo {
