@@ -8,25 +8,25 @@ main {
    ========================================== */
 .grid-container {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr; /* Giver billed-siden lidt mere plads end tekst-siden */
+  grid-template-columns: 1.2fr 0.8fr;
   align-items: center;
   gap: 40px;
-  max-width: 1200px; /* Holder indholdet samlet på midten */
-  margin: 0 auto; /* Centrerer selve containeren */
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 40px;
   background-color: #000033;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: start; /* Dette rykker både billede og tekst helt til tops */
+  align-items: start;
 }
 
 .grid-item-image img {
-  width: 100%; /* Billedet fylder nu hele sin kolonne ud */
+  width: 100%;
   height: auto;
   display: block;
   border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Gør det lækkert med en skygge */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .grid-item-text {
@@ -35,36 +35,36 @@ main {
 }
 
 .case-container {
-  display: flex; /* Aktiverer flexbox */
-  align-items: center; /* Centrerer indholdet lodret */
-  justify-content: space-between; /* Skaber luft mellem billede og tekst */
-  gap: 50px; /* Den præcise luft mellem kasserne */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
   padding: 60px;
-  background-color: #6d060d; /* Din mørkeblå farve */
+  background-color: #6d060d; /* mørkeblå farve */
   color: white;
   border: 10px dotted rgb(206, 206, 206);
   border-radius: 3px;
 }
 
 .case-image {
-  flex: 1; /* Lad billedet fylde halvdelen */
+  flex: 1;
 }
 
 .case-image img {
-  width: 100%; /* Sørger for at billedet udfylder sin kasse */
+  width: 100%;
   height: auto;
 }
 
 .case-info {
-  flex: 1; /* Lad teksten fylde den anden halvdel */
-  text-align: left; /* Holder den "stive" og rene stil */
+  flex: 1;
+  text-align: left;
 }
 
 /* Specifik styling til Om mig billedet */
 .om-mig-billede {
   width: 100%;
-  border-radius: 5px; /* Giver lidt bløde hjørner */
-  filter: grayscale(20%); /* Valgfrit: Giver et lidt mere roligt "Vogue" look */
+  border-radius: 5px;
+  filter: grayscale(20%);
 }
 
 .om-mig-container {
@@ -72,54 +72,47 @@ main {
   margin-bottom: 50px;
 }
 
-/* Sørg for at overskrifterne har din signatur-stil */
 .grid-item-text h3 {
   text-transform: uppercase;
-  color: #6d060d; /* Din røde farve fra casen */
+  color: #6d060d;
   margin-top: 25px;
 }
 
-/* Containeren skal have position: relative */
 .case-item {
   position: relative;
   width: 100%;
-  max-width: 600px; /* Eller den bredde du ønsker */
+  max-width: 600px;
   overflow: hidden;
 }
 
-/* Billedet skal fylde kassen */
 .case-image {
   width: 100%;
   display: block;
   height: auto;
 }
 
-/* Selve det røde/blå overlay der dækker billedet */
 .case-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 51, 0.85); /* Mørkeblå gennemsigtig */
+  background-color: rgba(0, 0, 51, 0.85);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  /* Animation: Den starter som usynlig */
   opacity: 0;
   transition: opacity 0.4s ease;
 }
 
-/* Når man fører musen over case-item, bliver overlayet synligt */
 .case-item:hover .case-overlay {
   opacity: 1;
 }
 
-/* Styling af teksten og knappen inde i overlayet */
 .overlay-text {
-  color: #ff0000; /* Rød som på dit billede */
+  color: #ff0000;
   font-size: 2rem;
   margin-bottom: 20px;
 }
@@ -134,14 +127,13 @@ main {
 }
 
 .grid-beholder {
-  display: grid; /* Aktiverer grid-systemet */
-  grid-template-columns: 1fr 1fr; /* Laver 2 lige store kolonner ved siden af hinanden */
-  gap: 40px; /* Laver luft mellem billede og tekst */
-  align-items: center; /* Sørger for at de flugter pænt lodret */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
   padding: 20px;
 }
 
-/* Sørg for at billedet ikke bliver for stort og "stikker af" */
 .case-image {
   width: 40%;
   height: auto;
@@ -157,7 +149,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    padding: 20px 10px; /* Lidt luft i siderne også */
+    padding: 20px 10px;
     padding-top: 40px;
   }
 
@@ -173,7 +165,6 @@ main {
     padding: 0;
   }
 
-  /* 2. Grid & Case Containers (Fra 2 kolonner til 1) */
   .grid-container {
     grid-template-columns: 1fr;
     padding: 20px;
@@ -182,7 +173,7 @@ main {
   .case-container {
     flex-direction: column;
     gap: 20px;
-    padding: 40px 20px; /* Mere luft top/bund, god luft i siderne */
+    padding: 40px 20px;
     text-align: center;
   }
 
@@ -204,20 +195,19 @@ main {
 }
 
 .grid-beholder {
-  grid-template-columns: 1fr; /* Går tilbage til at stå under hinanden på telefonen */
+  grid-template-columns: 1fr;
 }
 
 .case-image {
-  width: 95%; /* Gør billedet bredere på små skærme */
-  padding: 10px; /* Mindre padding så det ikke bliver mast */
-  margin: 0 auto; /* Holder det centreret */
+  width: 95%;
+  padding: 10px;
+  margin: 0 auto;
 }
 
 /**************************
 RESPONSIVT DESIGN (MOBIL)
 ***************************/
 
-/* 1. Almindelige regler (Computer) - SKAL STÅ UDENFOR @MEDIA */
 .video-container {
   position: relative;
   max-width: 800px;
@@ -228,12 +218,11 @@ RESPONSIVT DESIGN (MOBIL)
   position: absolute;
   top: 20px;
   left: 20px;
-  font-size: 1.2rem; /* Her har du gjort den mindre */
+  font-size: 1.2rem;
   color: #8b0000;
   z-index: 10;
 }
 
-/* 2. Din Media Query HELT I BUNDEN - KUN til ændringer på mobil */
 @media (max-width: 600px) {
   .video-overskrift {
     font-size: 0.9rem;
