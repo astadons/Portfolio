@@ -61,12 +61,12 @@ p {
   font-weight: 400;
 
   color: #f2f2f2;
-  line-height: 1.6; /* Giver luft mellem linjerne i afsnit */
-  margin-bottom: 20px; /* Giver luft mellem teksterne*/
+  line-height: 1.6;
+  margin-bottom: 20px;
 
   font-variant: small-caps;
-  letter-spacing: 1.5px; /* Luft mellem tegnene */
-  word-spacing: 1.5px; /* Lidt mere plads mellem ordene */
+  letter-spacing: 1.5px;
+  word-spacing: 1.5px;
 }
 
 /****om mig***/
@@ -88,7 +88,7 @@ p {
   justify-content: center;
   gap: 20px;
   padding: 50px 0;
-  background-color: rgb(11, 17, 75); /*  mørkeblå farve */
+  background-color: rgb(11, 17, 75);
 }
 
 .cta-box {
@@ -108,7 +108,6 @@ p {
   color: #180643; /* Bytter farverne rundt ved hover */
 }
 
-/* 3. Hover-effekten (når musen er over) */
 .cta-knap:hover {
   background-color: #cc0000; /* En mørkere nuance af farven */
   transform: scale(1.05); /* Knappen bliver en lille smule større */
@@ -165,7 +164,7 @@ footer {
   width: 300px;
   height: auto;
   display: block;
-  margin: 20px auto; /* Centrerer logoet og giver luft (whitespace) */
+  margin: 20px auto;
 }
 
 /**********************menuen*************************************/
@@ -260,7 +259,7 @@ header {
 }
 
 .case-item {
-  z-index: 1; /* Sørg for at billedet har et lavere tal end headeren */
+  z-index: 1;
 }
 
 /**** Containeren *****/
@@ -269,7 +268,7 @@ header {
   width: 55%;
   max-width: 800px;
   cursor: pointer;
-  overflow: hidden; /* Holder sløringen inden for billedets kanter */
+  overflow: hidden;
 }
 
 /**teksten til emergency**/
@@ -289,7 +288,7 @@ header {
 .case-image {
   display: block;
   width: 80%;
-  margin: 0 auto; /* Dette kombinerer venstre/højre auto og SKAL centrere en blok */
+  margin: 0 auto;
   height: auto;
   padding: 40px 25px;
 }
@@ -308,22 +307,22 @@ header {
   opacity: 0; /* Skjult som standard */
   transition: opacity 0.4s ease;
 
-  /* Dette slører billedet bagved teksten */
+  /* slører billedet bagved teksten */
   backdrop-filter: blur(8px);
 }
 
 /* Teksten indeni overlayet */
 .overlay-text {
   color: white;
-  font-size: 1.5rem; /* Gør det stort! */
+  font-size: 1.5rem;
   font-family: "Cardo", serif;
   letter-spacing: 2.5px;
 }
 
 .om-mig-billede {
-  width: 80%; /* Gør billedet mindre (80% af sin container) */
+  width: 80%;
   height: auto;
-  display: block; /* Fjerner lille mellemrum i bunden */
+  display: block;
   margin: 0 auto;
   padding: 10px;
 }
@@ -337,7 +336,7 @@ header {
 
 .skill {
   display: inline-block;
-  width: 200px; /* Så de kan stå ved siden af hinanden */
+  width: 200px;
   margin-bottom: 20px;
 }
 
@@ -354,7 +353,7 @@ header {
 
 /* styler checkboxen til at ligne en cirkel */
 input[type="checkbox"] {
-  appearance: none; /* Fjerner det normale flueben-look */
+  appearance: none;
   width: 20px;
   height: 20px;
   background-color: #696060;
@@ -380,15 +379,15 @@ input[type="checkbox"]:hover {
 }
 
 .case-item:hover .case-image {
-  transform: scale(1.05); /* Valgfrit: billedet zoomer en lille smule */
+  transform: scale(1.05);
 }
 
 .tekst-indhold {
   padding: 80px;
   margin: 25px;
-  border: 2px solid rgb(182, 18, 18); /* Skaber en hvid ramme på 2 pixels */
-  padding: 20px; /* Vigtigt: giver luft mellem teksten og rammen */
-  border-radius: 8px; /* Giver boksen bløde/runde hjørner */
+  border: 2px solid rgb(182, 18, 18);
+  padding: 20px;
+  border-radius: 8px;
 }
 
 .ux-ui {
@@ -397,15 +396,15 @@ input[type="checkbox"]:hover {
 }
 
 .media {
-  width: 70%; /* Gør billedet mindre (f.eks. 70% af skærmen) */
-  max-width: 250px; /* Sætter en fast grænse for, hvor stort det må blive */
+  width: 70%;
+  max-width: 250px;
   height: auto;
   margin: 0 auto;
   display: block;
 }
 
 .box-modellen {
-  width: 40%; /* Gør billedet mindre (80% af sin container) */
+  width: 40%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -413,79 +412,71 @@ input[type="checkbox"]:hover {
 }
 
 .dons {
-  /* Dette skaber mellemrummet mellem billederne */
   gap: 60px;
-  width: 40%; /* Gør billedet mindre (80% af sin container) */
+  width: 40%;
   height: auto;
   display: block;
   margin-bottom: 60px;
   margin-right: 60px;
-  /* skaber mellemrummet mellem billederne */
-  gap: 60px;
 }
 
 .moodboard {
-  width: 40%; /* Gør billedet mindre (80% af sin container) */
+  width: 40%;
   height: auto;
-  display: block; /* Fjerner lille mellemrum i bunden */
+  display: block;
   margin-bottom: 60px;
   margin-right: 60px;
-  /* Dette skaber mellemrummet mellem billederne */
   gap: 60px;
 }
 
 .mor {
-  width: 40%; /* Gør billedet mindre (80% af sin container) */
+  width: 40%;
   height: auto;
-  display: block; /* Fjerner lille mellemrum i bunden */
+  display: block;
   margin-bottom: 60px;
   margin-right: 60px;
-  /* Dette skaber mellemrummet mellem billederne */
   gap: 60px;
 }
 
 .alice1 {
-  /* Dette skaber mellemrummet mellem billederne */
   gap: 60px;
-  width: 40%; /* Gør billedet mindre (80% af sin container) */
+  width: 40%;
   height: auto;
-  display: block; /* Fjerner lille mellemrum i bunden */
+  display: block;
   margin-bottom: 60px;
   margin-right: 60px;
 }
 
 .alice4 {
-  /* Dette skaber mellemrummet mellem billederne */
   gap: 60px;
-  width: 40%; /* Gør billedet mindre (80% af sin container) */
+  width: 40%;
   height: auto;
-  display: block; /* Fjerner lille mellemrum i bunden */
+  display: block;
   margin-bottom: 60px;
   margin-right: 60px;
 }
 
 .alice5 {
-  /* Dette skaber mellemrummet mellem billederne */
   gap: 60px;
-  width: 40%; /* Gør billedet mindre (80% af sin container) */
+  width: 40%;
   height: auto;
-  display: block; /* Fjerner lille mellemrum i bunden */
+  display: block;
   margin-bottom: 60px;
   margin-right: 60px;
 }
 
 .forms {
-  width: 60%; /* Gør billedet mindre (60% af sin container) */
+  width: 60%;
   height: auto;
-  display: block; /* Fjerner lille mellemrum i bunden */
+  display: block;
   margin: 0 auto;
   padding: 10px;
 }
 
 .light {
-  width: 50%; /* Gør billedet mindre (60% af sin container) */
+  width: 50%;
   height: auto;
-  display: block; /* Fjerner lille mellemrum i bunden */
+  display: block;
   margin: 0 auto;
   padding: 10px;
 }
@@ -494,7 +485,7 @@ input[type="checkbox"]:hover {
 .video-container {
   position: relative;
   width: 100%;
-  max-width: 1200px; /* Ændr fra 800px til f.eks. 1200px for et større format */
+  max-width: 1200px;
   margin: 50px auto;
   height: auto;
 }
@@ -503,12 +494,9 @@ input[type="checkbox"]:hover {
   bottom: 20px;
   right: 20px;
   position: absolute;
-  top: 50%; /* Flytter toppen af teksten til midten af videoen */
-  left: 50%; /* Flytter venstre side af teksten til midten */
-  transform: translate(-50%, -50%); /* Trækker teksten tilbage med sin egen halve bredde/højde så den er præcis i centrum */
-  /* ... dine andre koder ... */
-
-  pointer-events: none; /* Dette gør at du kan klikke "igennem" teksten */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .case-video {
@@ -521,7 +509,6 @@ input[type="checkbox"]:hover {
 
 /****text til videoopgaven***/
 .text-videoopgaven1 {
-  /* Border udenom */
   border: 2.5px solid #960808;
   border-radius: 8px;
   padding: 20px;
@@ -547,21 +534,21 @@ input[type="checkbox"]:hover {
   }
 }
 
-/* Hoppe Animation (Bruges til dit billede eller CTA knap) */
+/* Hoppe Animation (CTA knap) */
 @keyframes hoppe-animation {
   0%,
   100% {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px); /* Hopper 10 pixels op */
+    transform: translateY(-10px);
   }
 }
 
 .fade-in-text {
-  opacity: 0; /* Starter som usynlig */
-  transform: translateY(20px); /* Starter lidt længere nede */
-  animation: flashIn 2s ease-out forwards; /* Aktiverer animationen */
+  opacity: 0;
+  transform: translateY(20px);
+  animation: flashIn 2s ease-out forwards;
 }
 
 @keyframes flashIn {
@@ -570,27 +557,25 @@ input[type="checkbox"]:hover {
     transform: translateY(20px);
   }
   50% {
-    opacity: 0.5; /* "Flash" midtvejs */
+    opacity: 0.5;
   }
   100% {
-    opacity: 1; /* Slutter helt synlig */
-    transform: translateY(0); /* Slutter på sin rette plads */
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-/* Navnet kommer ind først */
 h2.fade-in-text {
   animation-delay: 0.2s;
 }
 
-/* Titlen kommer ind lige bagefter */
 h1.fade-in-text {
   animation-delay: 0.8s;
 }
 
-/* Her anvender du animationerne på dine klasser */
+/* animationerne på mine klasser*/
 .fade-in-text {
-  animation: fadeIn 3s ease-out; /* 3 sekunder giver et flot, roligt fade */
+  animation: fadeIn 3s ease-out;
 }
 
 .hoppende-billede,
@@ -600,31 +585,30 @@ h1.fade-in-text {
 
 /*** forside scroll**/
 .fade-in-text {
-  opacity: 0; /* Start som usynlig */
-  animation: fadeIn 1.5s ease-out forwards; /* 'forwards' gør at den bliver stående som synlig */
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
 }
 
-/* Forskydning så de ikke kommer samtidig */
 h1:nth-child(1) {
   animation-delay: 0.2s;
 }
 
 h1:nth-child(2) {
-  animation-delay: 0.5s; /* Kommer lidt senere end det første ord */
+  animation-delay: 0.5s;
 }
 
 .linkedin-link {
-  animation-delay: 0.8s; /* Kommer sidst */
+  animation-delay: 0.8s;
 }
 
-/* Vi bruger den samme keyframe som før */
+/* Vi bruger samme keyframe som før */
 @keyframes hoppe-animation {
   0%,
   100% {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-8px); /* Knappen hopper 8px op */
+    transform: translateY(-8px);
   }
 }
 
@@ -632,7 +616,7 @@ h1:nth-child(2) {
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(20px); /* Den starter lidt nede og bevæger sig op */
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
@@ -642,20 +626,20 @@ h1:nth-child(2) {
 
 /* Denne klasse sætter vi på din tekst-container */
 .fade-in-text {
-  opacity: 0; /* Starter som usynlig */
+  opacity: 0;
   animation: fadeIn 2s ease-out forwards;
-  animation-delay: 0.5s; /* Vent 0.5 sekund før teksten toner frem */
+  animation-delay: 0.5s;
 }
 
 /* Animationen der gør dem synlige */
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(30px); /* De starter 30px nede */
+    transform: translateY(30px);
   }
   to {
     opacity: 1;
-    transform: translateY(0); /* De slutter på deres rette plads */
+    transform: translateY(0);
   }
 }
 
@@ -663,11 +647,10 @@ h1:nth-child(2) {
 .dons,
 .moodboard,
 .mor {
-  opacity: 0; /* Starter som usynlig */
+  opacity: 0;
   animation: fadeInUp 1.2s ease-out forwards;
 }
 
-/* Gør det "sjovt" ved at lade dem komme ind med forskudt tid */
 .dons {
   animation-delay: 0.2s;
 }
@@ -680,7 +663,7 @@ h1:nth-child(2) {
   animation-delay: 1s;
 }
 
-/* indhol alice billeder animation*/
+/*  alice billeder animation*/
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -692,15 +675,14 @@ h1:nth-child(2) {
   }
 }
 
-/* 2. Sæt animationen på alle tre billeder (Husk KOMMA mellem navnene) */
+/* 2. animationen er på alle tre billeder*/
 .alice1,
 .alice4,
 .alice5 {
-  opacity: 0; /* Starter som usynlig */
+  opacity: 0;
   animation: fadeInUp 1.2s ease-out forwards;
 }
 
-/* 3. Forsinkelserne (disse ser fine ud) */
 .alice1 {
   animation-delay: 0.2s;
 }
@@ -716,22 +698,20 @@ h1:nth-child(2) {
 @keyframes popIn {
   0% {
     opacity: 0;
-    transform: scale(0.8); /* Starter mindre */
+    transform: scale(0.8);
   }
   100% {
     opacity: 1;
-    transform: scale(1); /* Popper ud til fuld størrelse */
+    transform: scale(1);
   }
 }
 
 /*** forside cta hoppende kanp***/
 
-/* Anvend den på din knap */
 .hoppende-knap {
-  display: inline-block; /* Vigtigt: transform virker bedst på inline-block eller block */
+  display: inline-block;
   animation: hoppe-animation 2s ease-in-out infinite;
 
-  /* Din eksisterende knap-styling herunder (eksempel) */
   padding: 15px 30px;
   border: 2px solid red;
   color: red;
@@ -741,17 +721,17 @@ h1:nth-child(2) {
   font-family: "Bodoni Moda", serif;
 }
 
-/* Tip: Stop hoppet når man holder musen over (hover) */
+/* Stopper hoppet når man holder musen over (hover) */
 .hoppende-knap:hover {
   animation-play-state: paused;
   background-color: red;
   color: #000033;
 }
 
-/***JS scroll effekt***/ /* aktiveres kun når JS tilføjer klassen ved scroll */
+/***JS scroll effekt***/
 .header-scrolled {
-  background-color: rgba(255, 255, 255, 0.9); /* Gør den f.eks. lidt mørkere og gennemsigtig */
-  backdrop-filter: blur(5px); /* Giver en lækker glas-effekt */
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(5px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
